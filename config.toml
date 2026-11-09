@@ -1,0 +1,26 @@
+[theme]
+base = "light"
+primaryColor = "#0b5394"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f3f6f9"
+textColor = "#1f2733"
+borderColor = "#d7dfe8"
+linkColor = "#0b5394"
+font = "sans-serif"
+headingFont = "Georgia"
+headingFontWeights = [600, 600, 600, 600, 500, 500]
+baseRadius = "0.375rem"
+buttonRadius = "0.375rem"
+showWidgetBorder = true
+showSidebarBorder = true
+linkUnderline = false
+metricValueFontSize = "1.8rem"
+metricValueFontWeight = 600
+dataframeBorderColor = "#d7dfe8"
+dataframeHeaderBackgroundColor = "#e9f0f7"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+address = "127.0.0.1"
