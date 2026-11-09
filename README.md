@@ -1,4 +1,5 @@
 # GelSIT
+
 ## Overview
 
 GelSIT is a local, browser-based application that estimates the **apparent gelation temperature** from rheology temperature-ramp data — temperature (°C), storage modulus (G') and loss modulus (G"). It was developed by Wing Shan Ko at the Singapore Institute of Technology.
