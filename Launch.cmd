@@ -1,11 +1,11 @@
 @echo off
 setlocal
 cd /d "%~dp0"
-set "APP_PYTHON=%LOCALAPPDATA%\GelationAnalyzer\venv\Scripts\python.exe"
+set "APP_PYTHON=%LOCALAPPDATA%\GelSIT\venv\Scripts\python.exe"
 if not exist "%APP_PYTHON%" (
     py -3 -c "import sys; raise SystemExit(0 if sys.version_info >= (3, 12) else 1)" >nul 2>&1
     if errorlevel 1 goto python_required
-    py -3 -m venv "%LOCALAPPDATA%\GelationAnalyzer\venv"
+    py -3 -m venv "%LOCALAPPDATA%\GelSIT\venv"
     if errorlevel 1 goto failed
 )
 "%APP_PYTHON%" -c "import sys; raise SystemExit(0 if sys.version_info >= (3, 12) else 1)" >nul 2>&1
