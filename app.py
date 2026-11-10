@@ -82,7 +82,7 @@ with st.container(border=True):
 1. Upload a temperature ramp dataset, with temperature (°C), storage modulus G' and loss modulus G\"
 2. Ensure that the columns are read correctly
 3. Adjust the averaging and noise threshold accordingly
-4. Click "Analyze" to get the apparent gelation temperature value. Figure and Excel download are available afterwards.""")
+4. Click "Analyze" to get the apparent gelation temperature value. Figure and Excel download are available afterwards""")
 st.subheader("Step 1. Raw data", anchor=False, icon=":material/upload_file:")
 st.caption(f"Upload Excel (.xlsx) or CSV files with temperature ({CELSIUS}), G' (Pa) and G\" (Pa).")
 uploads = st.file_uploader("Raw data", type=["xlsx", "csv"], accept_multiple_files=True,
