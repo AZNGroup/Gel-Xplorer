@@ -32,12 +32,12 @@ REM Ensure required packages are installed
 echo.
 echo First launch may take several minutes while GelSIT installs dependencies...
 echo Checking GelSIT dependencies...
-"%APP_PYTHON%" -m pip install -r requirements.txt
+"%APP_PYTHON%" -m pip install -r "%~dp0requirements.txt"
 if errorlevel 1 goto failed
 
 REM Launch GelSIT
 echo Starting GelSIT...
-"%APP_PYTHON%" -m streamlit run app.py --server.address 127.0.0.1 --browser.gatherUsageStats false
+"%APP_PYTHON%" -m streamlit run "%~dp0app.py" --server.address 127.0.0.1 --browser.gatherUsageStats false
 if errorlevel 1 goto failed
 
 exit /b 0
