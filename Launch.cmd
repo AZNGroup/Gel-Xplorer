@@ -10,6 +10,10 @@ if not exist "%APP_PYTHON%" (
     py -3 -c "import sys; raise SystemExit(0 if sys.version_info >= (3,12) else 1)" >nul 2>&1
     if errorlevel 1 goto python_required
 
+    if not exist "%LOCALAPPDATA%\GelSIT" (
+        mkdir "%LOCALAPPDATA%\GelSIT"
+    )
+
     echo Creating GelSIT virtual environment...
     py -3 -m venv "%LOCALAPPDATA%\GelSIT\venv"
     if errorlevel 1 goto failed
@@ -24,7 +28,9 @@ echo Checking pip...
 "%APP_PYTHON%" -m pip install --upgrade pip
 if errorlevel 1 goto failed
 
-REM Always ensure required packages are installed/updated
+REM Ensure required packages are installed
+echo.
+echo First launch may take several minutes while GelSIT installs dependencies...
 echo Checking GelSIT dependencies...
 "%APP_PYTHON%" -m pip install -r requirements.txt
 if errorlevel 1 goto failed
