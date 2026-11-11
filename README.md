@@ -56,3 +56,7 @@ Temperature should generally rise through the data. Small measurement fluctuatio
 ## Bug report
 
 For bug reporting, please reach out to [arif.nelson@singaporetech.edu.sg](arif.nelson@singaporetech.edu.sg).
+
+## Reference
+
+If you use this tool in your research or academic studies, please cite our work using the temporary format below. This work is currently under revision, and the citation will be updated with the finalised title and journal details upon publication: Ko, W. S., Chin, T. G. J., Tang, K. Y., Chai, C. H. T., Jiang, Y., Ye, E., Du, J., & Nelson, A. Z. (2026). Practical rheology: Apparent gelation temperature metrics for enabling high-throughput screening of plant-based protein functionality [Manuscript submitted for publication].
