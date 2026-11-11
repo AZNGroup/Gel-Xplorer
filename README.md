@@ -49,7 +49,7 @@ Temperature should generally rise through the data. Small measurement fluctuatio
 
 - Check the preview and confirm the selected data row and all three columns.
 - Confirm the input uses °C and Pa. Convert other units before uploading.
-- Make sure the temperature values do not decrease as you move down the heating ramp. A final hold within 0.1 °C of the maximum temperature is allowed and excluded from the calculation.
+- Make sure the temperature values do not decrease as you move down the heating ramp.
 - **Not found** means no crossing met the analysis criteria; it does not mean the temperature is zero.
 - If the app does not start on first launch, check the console for an error and confirm that Python 3.12 or newer and an internet connection are available.
 
@@ -59,4 +59,6 @@ For bug reporting, please reach out to [arif.nelson@singaporetech.edu.sg](arif.n
 
 ## Reference
 
-If you use this tool in your research or academic studies, please cite our work using the temporary format below. This work is currently under revision, and the citation will be updated with the finalised title and journal details upon publication: Ko, W. S., Chin, T. G. J., Tang, K. Y., Chai, C. H. T., Jiang, Y., Ye, E., Du, J., & Nelson, A. Z. (2026). Practical rheology: Apparent gelation temperature metrics for enabling high-throughput screening of plant-based protein functionality [Manuscript submitted for publication].
+If you use this tool in your research or academic studies, please cite our work using the temporary format below. This work is currently under revision, and the citation will be updated with the finalised title and journal details upon publication: 
+
+Ko, W. S., Chin, T. G. J., Tang, K. Y., Chai, C. H. T., Jiang, Y., Ye, E., Du, J., & Nelson, A. Z. (2026). Practical rheology: Apparent gelation temperature metrics for enabling high-throughput screening of plant-based protein functionality [Manuscript submitted for publication].
