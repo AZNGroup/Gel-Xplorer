@@ -1,8 +1,7 @@
 # GelSIT
-
 ## Overview
 
-GelSIT is a local, browser-based application that estimates the **apparent gelation temperature** from rheology temperature-ramp data — temperature (°C), storage modulus (G') and loss modulus (G"). It was developed by Wing Shan Ko at the Singapore Institute of Technology.
+GelSIT is a local, browser-based application that estimates the **apparent gelation temperature** from rheology temperature-ramp data — temperature (°C), storage modulus (G') and loss modulus (G") beyond the conventional crossover G'/G". It was developed by Wing Shan Ko at the Singapore Institute of Technology.
 
 The main program file is `app.py`. On Windows, start the application by double-clicking `Launch.cmd`. The app opens in your web browser and processes files on your computer; it does not send them to an external analysis service.
 
@@ -21,7 +20,7 @@ The app should open automatically in your browser. If it does not, use the addre
 
 ## Prepare your data
 
-Upload an Excel workbook (`.xlsx`) or a UTF-8 CSV file. Each worksheet or CSV should contain one temperature ramp with:
+Upload an Excel workbook (`.xlsx`) or a UTF-8 CSV file. Each worksheet or CSV should contain temperature ramp with:
 
 - Temperature in °C
 - Storage modulus, G', in Pa
@@ -62,3 +61,7 @@ For bug reporting, please reach out to [arif.nelson@singaporetech.edu.sg](arif.n
 If you use this tool in your research or academic studies, please cite our work using the temporary format below. This work is currently under revision, and the citation will be updated with the finalised title and journal details upon publication: 
 
 Ko, W. S., Chin, T. G. J., Tang, K. Y., Chai, C. H. T., Jiang, Y., Ye, E., Du, J., & Nelson, A. Z. (2026). Practical rheology: Apparent gelation temperature metrics for enabling high-throughput screening of plant-based protein functionality [Manuscript submitted for publication].
+
+## License
+
+Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more information.
