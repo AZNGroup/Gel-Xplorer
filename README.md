@@ -16,7 +16,12 @@ The main program file is `app.py`. On Windows, start the application by double-c
 
 The launcher uses the newest installed Python 3 version. Newer Python releases can be used when the packages listed in `requirements.txt` support them; compatibility with future releases is not guaranteed until tested.
 
-The app should open automatically in your browser. If it does not, use the address shown in the console window. For the currently running instance, the address is [http://127.0.0.1:8501](http://127.0.0.1:8501). The port may differ when you start the app again.
+## Use the hosted version
+If you prefer not to install Python or run the application locally, you can access the hosted version directly through Streamlit Community Cloud:
+
+https://gelsit.streamlit.app/
+
+The hosted version requires no installation and can be accessed from any modern web browser.
 
 ## Prepare your data
 
