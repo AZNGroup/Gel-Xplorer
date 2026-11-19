@@ -6,6 +6,8 @@ from plotly.subplots import make_subplots
 
 from analysis import Settings, analyze, log_inflection_candidates
 
+import os
+print("FIGURES.PY LOADED FROM:", os.path.abspath(__file__))
 
 CELSIUS = "\u00b0C"
 COLORS = {"storage": "#c62828", "loss": "#245bc4", "complex": "#111111"}
