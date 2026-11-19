@@ -1,7 +1,6 @@
-# GelSIT
-## Overview
+## GelSIT Overview
 
-GelSIT is a local, browser-based application that estimates the **apparent gelation temperature** from rheology temperature-ramp data — temperature (°C), storage modulus (G') and loss modulus (G") beyond the conventional crossover G'/G". It was developed by Wing Shan Ko at the Singapore Institute of Technology.
+GelSIT is a local, browser-based application that was developed to streamline and estimate the **apparent gelation temperature** from rheology temperature-ramp data — temperature (°C), storage modulus (G') and loss modulus (G") beyond the conventional crossover G'/G". As experimental studies increasingly generate large volumes of rheological data, manual analysis can become laborious and may introduce inconsistencies between datasets. To address this, GelSIT offers a practical approach for high-throughput screening and comparative assessment of rheological behaviour across experiments.
 
 The main program file is `app.py`. On Windows, start the application by double-clicking `Launch.cmd`. The app opens in your web browser and processes files on your computer; it does not send them to an external analysis service.
 
@@ -57,15 +56,31 @@ Temperature should generally rise through the data. Small measurement fluctuatio
 - **Not found** means no crossing met the analysis criteria; it does not mean the temperature is zero.
 - If the app does not start on first launch, check the console for an error and confirm that Python 3.12 or newer and an internet connection are available.
 
-## Bug report
+## Software development
 
-For bug reporting, please reach out to [arif.nelson@singaporetech.edu.sg](arif.nelson@singaporetech.edu.sg).
+GelSIT was developed under the supervision of Arif Z Nelson (Associate Professor - Singapore Institute of Technology), who contributed to the conceptualization of the analytical framework and provided scientific guidance throughout the project. Wing Shan Ko designed and implemented the software workflow, including the algorithm development, validation of the gelation temperature determination methodology against the experimental datasets, software testing, user interface development, and documentation.
 
-## Reference
+## Acknowledgements
+The development of GelSIT was supported by:
 
-If you use this tool in your research or academic studies, please cite our work using the temporary format below. This work is currently under revision, and the citation will be updated with the finalised title and journal details upon publication: 
+- National Research Foundation (NRF), Prime Minister's Office, Singapore, under its Campus for Research Excellence and Technological Enterprise (CREATE) programme (Proteins4Singapore)
+- Agency for Science, Technology and Research (A*STAR) through the RIE2020 Singapore Food Story R&D Programme Industry Alignment Fund Pre-Positioning grants (A21H7a0131 and H21H8a0005)
+- A*STAR RIE 2025 New Zealand-Singapore Biotech in Future Foods Research Programme (R25IBIR003)
+- National Research Foundation, Singapore, and the Singapore Food Agency (SFA) under the Singapore Food Story R&D 2.0 Programme Second Future Foods Main Grant Call (NRF-SFSRND2FF2-0004)
 
-Ko, W. S., Chin, T. G. J., Tang, K. Y., Chai, C. H. T., Jiang, Y., Ye, E., Du, J., & Nelson, A. Z. (2026). Practical rheology: Apparent gelation temperature metrics for enabling high-throughput screening of plant-based protein functionality [Manuscript submitted for publication].
+The authors also acknowledge the Bezos Earth Fund for supporting the Bezos Centre for Sustainable Protein at the National University of Singapore (NUS), and the Good Food Institute.
+
+## Associated Publication
+
+If you use GelSIT in your research, publications, or academic studies, please cite the following work:
+
+Ko, W. S., Chin, T. G. J., Tang, K. Y., Chai, C. H. T., Jiang, Y., Ye, E., Du, J., & Nelson, A. Z. (2026). Practical rheology: Apparent gelation temperature metrics for enabling high-throughput screening of plant-based protein functionality [Manuscript under review].
+
+Note: This citation will be updated upon publication with the final journal information and DOI.
+
+## Bug reports and feedback
+
+For bug reporting, feature requests, or general feedback regarding GelSIT, please reach out to Arif Z Nelson at [arif.nelson@singaporetech.edu.sg](arif.nelson@singaporetech.edu.sg).
 
 ## License
 
