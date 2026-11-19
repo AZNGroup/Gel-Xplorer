@@ -13,7 +13,7 @@ The main program file is `app.py`. On Windows, start the application by double-c
 3. On first launch, the app creates its environment and installs the required packages. An internet connection is needed for this initial setup.
 4. When the browser opens, keep the console window open while you use the app.
 
-Newer Python releases can be used when the packages listed in `requirements.txt` support them; compatibility with future releases is not guaranteed until tested.
+GelSIT is developed and tested with Python 3.12. Newer Python versions may be compatible, provided that all dependencies listed in `requirements.txt` support the selected version. However, compatibility with newer Python releases is not guaranteed until tested.
 
 ## Use the hosted version
 If you prefer not to install Python or run the application locally, you can access the hosted version directly through Streamlit Community Cloud:
