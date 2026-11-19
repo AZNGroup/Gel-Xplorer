@@ -1,4 +1,9 @@
 # GelSIT
+![Python](https://shields.io)
+[![Streamlit App](https://shields.io)](https://streamlit.app)
+![Dev Containers](https://shields.io)
+![License](https://shields.io)
+
 ## Overview
 
 GelSIT is a local, browser-based application that estimates the **apparent gelation temperature** from rheology temperature-ramp data — temperature (°C), storage modulus (G') and loss modulus (G") beyond the conventional crossover G'/G". It was developed by Wing Shan Ko at the Singapore Institute of Technology.
