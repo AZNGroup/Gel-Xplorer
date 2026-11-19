@@ -8,7 +8,7 @@ set APP_PYTHON=%APP_DIR%\venv\Scripts\python.exe
 
 echo Checking Python...
 
-python -c "import sys; exit(0 if sys.version_info >= (3,12) else 1)" >nul 2>&1
+python -c "import sys; exit(0 if sys.version_info >= (3,10) else 1)" >nul 2>&1
 
 if errorlevel 1 (
     echo.
