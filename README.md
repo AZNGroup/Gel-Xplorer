@@ -8,7 +8,7 @@ The main program file is `app.py`. On Windows, start the application by double-c
 
 ## Start the app
 
-1. Install Python 3.10 or newer, including the Python Launcher for Windows (`py`).
+1. Install Python 3.12 or newer, including the Python Launcher for Windows (`py`).
 2. Double-click `Launch.cmd`.
 3. On first launch, the app creates its environment and installs the required packages. An internet connection is needed for this initial setup.
 4. When the browser opens, keep the console window open while you use the app.
