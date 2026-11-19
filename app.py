@@ -47,15 +47,16 @@ def page_footer():
   <div>Developed by Wing Shan Ko &nbsp;&middot;&nbsp; Singapore Institute of Technology</div>
   <div style="color:#8295a7;">All data is processed locally; no information is sent to external servers</div>
   <div style="max-width:52rem;margin:0.9rem auto 0;color:#8295a7;line-height:1.6;">
-    If you use this tool in your research or academic studies, please cite our work using the
-    temporary format below. This work is currently under revision, and the citation will be
-    updated with the finalised title and journal details upon publication.</div>
+   If you use GelSIT in your research, publications, or academic studies, please cite the following work: </div>
   <div style="max-width:52rem;margin:0.45rem auto 0.9rem;line-height:1.6;">
     <strong>Citation format:</strong> Ko, W. S., Chin, T. G. J., Tang, K. Y., Chai, C. H. T.,
     Jiang, Y., Ye, E., Du, J., &amp; Nelson, A. Z. (2026).
     <em>Practical rheology: Apparent gelation temperature metrics for enabling high-throughput
-    screening of plant-based protein functionality</em> [Manuscript submitted for publication].</div>
-  <div>For bug reports and questions, please contact
+    screening of plant-based protein functionality</em> [Manuscript under review].</div>
+<div style="max-width:52rem;margin:0.9rem auto 0;color:#8295a7;line-height:1.6;">
+Note: This citation will be updated upon publication with the final journal information and DOI. </div>
+    
+  <div>For bug reporting, feature requests, or general feedback regarding GelSIT, please reach out to Arif Z Nelson at
        <a href="mailto:arif.nelson@singaporetech.edu.sg"
           style="color:#0b5394;text-decoration:none;">arif.nelson@singaporetech.edu.sg</a></div>
 </div>""")
@@ -69,8 +70,7 @@ st.html("""<div style="background:linear-gradient(135deg,#0b5394 0%,#073763 100%
   <p style="color:#aec8e8;margin:0.8rem 0 0;font-size:0.88rem;line-height:1.55;">
     A local, browser-based application that estimates the apparent gelation temperature from
     rheology temperature-ramp data &mdash; temperature (&deg;C), storage modulus (G') and loss
-    modulus (G"). Files are processed on your computer and are not sent to an external
-    analysis service.</p>
+    modulus (G"). Developed for high-throughput material characterisation, the tool provides a rapid, reproducible, and user-friendly workflow for assessing thermal gelation behaviour directly within the browser.</p>
 </div>""")
 st.markdown(f":blue-badge[:material/science: Rheology] "
             f":gray-badge[:material/device_thermostat: Apparent gelation temperature] "
