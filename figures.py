@@ -152,7 +152,7 @@ def build_figure(result, marker_temperature=None, panel=None, axis_settings=None
                             ticktext=[f"10<sup>{power}</sup>" for power in powers],
                             minor={"tickmode": "array", "tickvals": minor_values, "ticks": "inside",
                                 "ticklen": 4, "tickwidth": TICK_WIDTH, "tickcolor": AXIS_COLOR, "showgrid": False},
-                            minorloglabels="none", row=1, col=1)
+                             row=1, col=1)
     if panel in (None, "B"):
         row = 2 if panel is None else 1
         boundary = result["log_threshold_temperature"]
