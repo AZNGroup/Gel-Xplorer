@@ -12,7 +12,7 @@ python -c "import sys; exit(0 if sys.version_info >= (3,12) else 1)" >nul 2>&1
 
 if errorlevel 1 (
     echo.
-    echo Python 3.12 or newer is required.
+    echo Python 3.10 or newer is required.
     echo Download from:
     echo https://www.python.org/downloads/
     pause
