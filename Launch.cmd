@@ -3,7 +3,7 @@ setlocal
 
 cd /d "%~dp0"
 
-set APP_DIR=%LOCALAPPDATA%\GelSIT
+set APP_DIR=%LOCALAPPDATA%\Gel Xplorer
 set APP_PYTHON=%APP_DIR%\venv\Scripts\python.exe
 
 echo Checking Python...
@@ -23,7 +23,7 @@ if not exist "%APP_DIR%" mkdir "%APP_DIR%"
 
 if not exist "%APP_PYTHON%" (
     echo.
-    echo Creating GelSIT virtual environment...
+    echo Creating Gel Xplorer virtual environment...
     python -m venv "%APP_DIR%\venv"
 )
 
@@ -46,15 +46,15 @@ echo Checking pip...
 "%APP_PYTHON%" -m pip install --upgrade pip
 
 echo.
-echo First launch may take several minutes while GelSIT installs dependencies...
+echo First launch may take several minutes while Gel Xplorer installs dependencies...
 "%APP_PYTHON%" -m pip install -r "%~dp0requirements.txt"
 
 echo.
-echo Starting GelSIT...
+echo Starting Gel Xplorer...
 "%APP_PYTHON%" -m streamlit run "%~dp0app.py" --server.address 127.0.0.1 --browser.gatherUsageStats false
 
 pause
-echo GelSIT could not start.
+echo Gel Xplorer could not start.
 echo Review the error messages above and try again.
 echo.
 pause
