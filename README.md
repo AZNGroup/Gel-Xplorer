@@ -1,6 +1,6 @@
-## GelSIT Overview
+## Gel Xplorer Overview
 
-GelSIT is a local, browser-based application that was developed to streamline and estimate the **apparent gelation temperature** from rheology temperature-ramp data — temperature (°C), storage modulus (G') and loss modulus (G") beyond the conventional crossover G'/G". As experimental studies increasingly generate large volumes of rheological data, manual analysis can become laborious and may introduce inconsistencies between datasets. To address this, GelSIT offers a practical approach for high-throughput screening and comparative assessment of rheological behaviour across experiments.
+Gel Xplorer is a local, browser-based application that was developed to streamline and estimate the **apparent gelation temperature** from rheology temperature-ramp data — temperature (°C), storage modulus (G') and loss modulus (G") beyond the conventional crossover G'/G". As experimental studies increasingly generate large volumes of rheological data, manual analysis can become laborious and may introduce inconsistencies between datasets. To address this, Gel Xplorer offers a practical approach for high-throughput screening and comparative assessment of rheological behaviour across experiments.
 
 The main program file is `app.py`. On Windows, start the application by double-clicking `Launch.cmd`. The app opens in your web browser and processes files on your computer; it does not send them to an external analysis service.
 
@@ -9,16 +9,16 @@ The main program file is `app.py`. On Windows, start the application by double-c
 ## Start the app
 
 1. Install Python 3.12 and ensure that the Python Launcher for Windows (`py`) is installed.
-2. Double-click `Launch.cmd` to start GelSIT.
+2. Double-click `Launch.cmd` to start Gel Xplorer.
 3. On first launch, the app creates its environment and installs the required packages. An internet connection is needed for this initial setup.
-4. Once the browser opens, keep the command prompt window open while using the application. Closing this window will stop GelSIT.
+4. Once the browser opens, keep the command prompt window open while using the application. Closing this window will stop Gel Xplorer.
 
-GelSIT is developed and tested with Python 3.12. Newer Python versions may be compatible, provided that all dependencies listed in `requirements.txt` support the selected version. However, compatibility with newer Python releases is not guaranteed until tested.
+Gel Xplorer is developed and tested with Python 3.12. Newer Python versions may be compatible, provided that all dependencies listed in `requirements.txt` support the selected version. However, compatibility with newer Python releases is not guaranteed until tested.
 
 ## Use the hosted version
 If you prefer not to install Python or run the application locally, you can access the hosted version directly through Streamlit Community Cloud:
 
-https://gelsit.streamlit.app/
+https://GelXplorer.streamlit.app/
 
 The hosted version requires no installation and can be accessed from any modern web browser.
 
@@ -58,10 +58,10 @@ Temperature should generally rise through the data. Small measurement fluctuatio
 
 ## Software development
 
-GelSIT was developed under the supervision of Arif Z Nelson (Associate Professor - Singapore Institute of Technology), who contributed to the conceptualization of the analytical framework and provided scientific guidance throughout the project. Wing Shan Ko designed and implemented the software workflow, including the algorithm development, validation of the gelation temperature determination methodology against the experimental datasets, software testing, user interface development, and documentation.
+Gel Xplorer was developed under the supervision of Arif Z Nelson (Associate Professor - Singapore Institute of Technology), who contributed to the conceptualization of the analytical framework and provided scientific guidance throughout the project. Wing Shan Ko designed and implemented the software workflow, including the algorithm development, validation of the gelation temperature determination methodology against the experimental datasets, software testing, user interface development, and documentation.
 
 ## Acknowledgements
-The development of GelSIT was supported by:
+The development of Gel Xplorer was supported by:
 
 - National Research Foundation (NRF), Prime Minister's Office, Singapore, under its Campus for Research Excellence and Technological Enterprise (CREATE) programme (Proteins4Singapore)
 - Agency for Science, Technology and Research (A*STAR) through the RIE2020 Singapore Food Story R&D Programme Industry Alignment Fund Pre-Positioning grants (A21H7a0131 and H21H8a0005)
@@ -72,7 +72,7 @@ The authors also acknowledge the Bezos Earth Fund for supporting the Bezos Centr
 
 ## Associated Publication
 
-If you use GelSIT in your research, publications, or academic studies, please cite the following work:
+If you use Gel Xplorer in your research, publications, or academic studies, please cite the following work:
 
 Ko, W. S., Chin, T. G. J., Tang, K. Y., Chai, C. H. T., Jiang, Y., Ye, E., Du, J., & Nelson, A. Z. (2026). Practical rheology: Apparent gelation temperature metrics for enabling high-throughput screening of plant-based protein functionality [Manuscript under review].
 
@@ -80,7 +80,7 @@ Note: This citation will be updated upon publication with the final journal info
 
 ## Bug reports and feedback
 
-For bug reporting, feature requests, or general feedback regarding GelSIT, please reach out to Arif Z Nelson at [arif.nelson@singaporetech.edu.sg](arif.nelson@singaporetech.edu.sg).
+For bug reporting, feature requests, or general feedback regarding Gel Xplorer, please reach out to Arif Z Nelson at [arif.nelson@singaporetech.edu.sg](arif.nelson@singaporetech.edu.sg).
 
 ## License
 
