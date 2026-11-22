@@ -16,7 +16,7 @@ from importing import detect_layout, extract_raw, input_summary
 
 
 LOG_COLUMNS = ["temperature", "complex", "log_complex", "log_derivative", "forward_temperature_span", "log_second_derivative"]
-st.set_page_config(page_title="GelSIT", page_icon=":material/science:", layout="wide")
+st.set_page_config(page_title="Gel Xplorer", page_icon=":material/science:", layout="wide")
 st.markdown("""<style>
 [class*="st-key-scientific_figure"] {overflow-x:auto;}
 [class*="st-key-scientific_figure"] > .stElementContainer {min-width:640px;overflow:visible;}
@@ -42,12 +42,12 @@ def page_footer():
     st.space("large")
     st.html(f"""<div style="border-top:1px solid #d7dfe8;margin-top:1.5rem;padding:1.2rem 0 0.5rem;
                 text-align:center;color:#5b6b7c;font-size:0.82rem;line-height:1.8;">
-  <div><span style="font-family:Georgia,serif;font-size:1.05rem;font-weight:600;color:#0b5394;">GelSIT</span>
+  <div><span style="font-family:Georgia,serif;font-size:1.05rem;font-weight:600;color:#0b5394;">Gel Xplorer</span>
        <span style="color:#8295a7;">&nbsp;v{VERSION}</span></div>
   <div>Developed by Wing Shan Ko &nbsp;&middot;&nbsp; Singapore Institute of Technology</div>
   <div style="color:#8295a7;">All data is processed locally; no information is sent to external servers</div>
   <div style="max-width:52rem;margin:0.9rem auto 0;color:#8295a7;line-height:1.6;">
-   If you use GelSIT in your research, publications, or academic studies, please cite the following work: </div>
+   If you use Gel Xplorer in your research, publications, or academic studies, please cite the following work: </div>
   <div style="max-width:52rem;margin:0.45rem auto 0.9rem;line-height:1.6;">
     <strong>Citation format:</strong> Ko, W. S., Chin, T. G. J., Tang, K. Y., Chai, C. H. T.,
     Jiang, Y., Ye, E., Du, J., &amp; Nelson, A. Z. (2026).
@@ -56,7 +56,7 @@ def page_footer():
 <div style="max-width:52rem;margin:0.9rem auto 0;color:#8295a7;line-height:1.6;">
 Note: This citation will be updated upon publication with the final journal information and DOI. </div>
     
-  <div>For bug reporting, feature requests, or general feedback regarding GelSIT, please reach out to Arif Z Nelson at
+  <div>For bug reporting, feature requests, or general feedback regarding Gel Xplorer, please reach out to Arif Z Nelson at
        <a href="mailto:arif.nelson@singaporetech.edu.sg"
           style="color:#0b5394;text-decoration:none;">arif.nelson@singaporetech.edu.sg</a></div>
 </div>""")
@@ -64,7 +64,7 @@ Note: This citation will be updated upon publication with the final journal info
 
 st.html("""<div style="background:linear-gradient(135deg,#0b5394 0%,#073763 100%);
             border-radius:0.5rem;padding:1.7rem 2rem;margin-bottom:0.75rem;">
-  <h1 style="font-family:Georgia,serif;color:#ffffff;margin:0;font-size:2.3rem;font-weight:600;">GelSIT</h1>
+  <h1 style="font-family:Georgia,serif;color:#ffffff;margin:0;font-size:2.3rem;font-weight:600;">Gel Xplorer</h1>
   <p style="color:#d6e4f5;margin:0.45rem 0 0;font-size:0.98rem;line-height:1.45;">
     Framework for apparent gelation temperature determination beyond conventional crossover analysis</p>
   <p style="color:#aec8e8;margin:0.8rem 0 0;font-size:0.88rem;line-height:1.55;">
