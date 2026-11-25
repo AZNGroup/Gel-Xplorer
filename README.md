@@ -8,12 +8,14 @@ The main program file is `app.py`. On Windows, start the application by double-c
 
 ## Start the app
 
-1. Install Python 3.12 and ensure that the Python Launcher for Windows (`py`) is installed.
+1. Install Python 3.12 or newer and ensure that the Python Launcher for Windows (py) is installed. During installation, select "Add Python to PATH".
 2. Double-click `Launch.cmd` to start Gel Xplorer.
 3. On first launch, the app creates its environment and installs the required packages. An internet connection is needed for this initial setup.
 4. Once the browser opens, keep the command prompt window open while using the application. Closing this window will stop Gel Xplorer.
 
 Gel Xplorer is developed and tested with Python 3.12. Newer Python versions may be compatible, provided that all dependencies listed in `requirements.txt` support the selected version. However, compatibility with newer Python releases is not guaranteed until tested.
+
+Note: Gel Xplorer was developed and tested using Python 3.12. The Streamlit Cloud deployment is configured to use Python 3.12, and package versions are pinned in requirements.txt to facilitate reproducibility.
 
 ## Use the hosted version
 If you prefer not to install Python or run the application locally, you can access the hosted version directly through Streamlit Community Cloud:
@@ -77,11 +79,3 @@ If you use Gel Xplorer in your research, publications, or academic studies, plea
 Ko, W. S., Chin, T. G. J., Tang, K. Y., Chai, C. H. T., Jiang, Y., Ye, E., Du, J., & Nelson, A. Z. (2026). Practical rheology: Apparent gelation temperature metrics for enabling high-throughput screening of plant-based protein functionality [Manuscript under review].
 
 Note: This citation will be updated upon publication with the final journal information and DOI.
-
-## Bug reports and feedback
-
-For bug reporting, feature requests, or general feedback regarding Gel Xplorer, please reach out to Arif Z Nelson at [arif.nelson@singaporetech.edu.sg](arif.nelson@singaporetech.edu.sg).
-
-## License
-
-Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more information.
