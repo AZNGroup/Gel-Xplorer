@@ -50,7 +50,7 @@ Temperature should generally rise through the data. Small measurement fluctuatio
 - **Excel workbook:** Download the calculated data and summary for your datasets.
 - **Figure file:** Download the figure as PNG, SVG, PDF, or HTML. PNG, SVG, and PDF export require Chrome or Edge to be installed.
 
-## If something looks wrong
+## For troubleshooting
 
 - Check the preview and confirm the selected data row and all three columns.
 - Confirm the input uses °C and Pa. Convert other units before uploading.
@@ -79,3 +79,7 @@ If you use Gel Xplorer in your research, publications, or academic studies, plea
 Ko, W. S., Chin, T. G. J., Tang, K. Y., Chai, C. H. T., Jiang, Y., Ye, E., Du, J., & Nelson, A. Z. (2026). Practical rheology: Apparent gelation temperature metrics for enabling high-throughput screening of plant-based protein functionality [Manuscript under review].
 
 Note: This citation will be updated upon publication with the final journal information and DOI.
+
+## Bug reporting and feedback
+
+For bug reporting, feature requests, or general feedback regarding Gel Xplorer, please reach out to Arif Z Nelson at arif.nelson@singaporetech.edu.sg
