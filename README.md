@@ -18,7 +18,7 @@ Gel Xplorer is developed and tested with Python 3.12. Newer Python versions may 
 ## Use the hosted version
 If you prefer not to install Python or run the application locally, you can access the hosted version directly through Streamlit Community Cloud:
 
-https://gelsit.streamlit.app/
+https://gel-xplorer.streamlit.app/
 
 The hosted version requires no installation and can be accessed from any modern web browser.
 
