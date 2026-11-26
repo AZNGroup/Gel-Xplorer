@@ -15,7 +15,7 @@ The main program file is `app.py`. On Windows, start the application by double-c
 
 Gel Xplorer is developed and tested with Python 3.12. Newer Python versions may be compatible, provided that all dependencies listed in `requirements.txt` support the selected version. However, compatibility with newer Python releases is not guaranteed until tested.
 
-Note: Gel Xplorer was developed and tested using Python 3.12. The Streamlit Cloud deployment is configured to use Python 3.12, and package versions are pinned in requirements.txt to facilitate reproducibility.
+Note: The Streamlit Cloud deployment is configured to use Python 3.12.
 
 ## Use the hosted version
 If you prefer not to install Python or run the application locally, you can access the hosted version directly through Streamlit Community Cloud:
